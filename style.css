@@ -1,0 +1,22 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;color:#222;line-height:1.6}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 8%;background:#12372a;color:white;position:sticky;top:0}
+.logo{font-size:25px;font-weight:bold}
+nav a{color:white;text-decoration:none;margin-left:25px}
+nav a:hover{color:#f7d774}
+.hero{min-height:70vh;display:flex;align-items:center;padding:60px 10%;background:linear-gradient(120deg,#dff5e1,#f7f2d0)}
+.hero h1{font-size:52px;margin-bottom:15px}
+.hero p{font-size:20px;max-width:600px;margin-bottom:25px}
+.btn,button{display:inline-block;background:#12372a;color:white;padding:12px 24px;border:0;border-radius:6px;text-decoration:none;cursor:pointer}
+.section{padding:60px 8%;text-align:center}
+.section h2{font-size:34px;margin-bottom:30px}
+.light{background:#f4f7f5}
+.cards,.services{display:flex;gap:25px;justify-content:center;flex-wrap:wrap}
+.card,.services div{width:30%;min-width:250px;padding:25px;border-radius:12px;background:white;box-shadow:0 4px 15px #0002}
+.property-img{height:150px;display:flex;align-items:center;justify-content:center;font-size:70px;background:#e9f2ec;border-radius:10px;margin-bottom:18px}
+.card h3{margin-bottom:8px}
+.card strong{display:block;margin-top:12px;color:#12372a;font-size:20px}
+form{max-width:600px;margin:auto;display:flex;flex-direction:column;gap:15px}
+input,textarea{padding:14px;border:1px solid #bbb;border-radius:6px;font-size:16px}
+footer{background:#12372a;color:white;text-align:center;padding:20px}
+@media(max-width:700px){header{flex-direction:column;gap:10px}nav a{margin:0 7px}.hero h1{font-size:38px}.card,.services div{width:100%}}
